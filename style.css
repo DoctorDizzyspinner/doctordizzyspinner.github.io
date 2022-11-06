@@ -1,0 +1,112 @@
+html{
+    cursor: url('images/img_graphics/cursor2.png'), auto;
+}
+a{
+    cursor: url('images/img_graphics/hoverlink.png'), auto;
+}
+
+@font-face{
+    font-family:alagard;
+    src:url("fonts/alagard.ttf")
+}
+@font-face{
+    font-family:add;
+    src:url("fonts/add.ttf")
+}
+body{
+    margin:0 auto;
+    max-width:50em;
+    background-image:url('https://doctordizzy.neocities.org/test/images/img_graphics/dotpict_20221106_010753.png')
+}
+.flex{
+    display:flex
+}
+aside,footer,header,nav{
+    font-family:alagard
+}
+header{
+    max-width:100%
+}
+aside,nav{
+    width:200px;
+    margin-top:30px
+}
+section{
+    border:2px solid rgb(250,211,254);
+    border-radius:5px;
+    padding:5px;
+}
+main{
+    border:2px solid rgb(250,211,254);
+    border-radius:5px;
+    padding:10px;
+    margin:20px;
+    width:100%;
+    background-color: rgb(55,8,89)
+}
+article{
+  background-color: rgb(55,8,89);
+}
+.add{
+    font-family:add;
+    font-size:14px
+}
+h1,h2,h3,hr{
+    font-family:alagard;
+    color:rgb(250,211,254)
+}
+a,hr,li,p{
+    color:rgb(250,211,254)
+}
+footer,p{
+    text-align:center
+}
+ol,ul{
+    display:table;
+    margin:0 auto;
+    text-align:left
+}
+.mytable{
+    margin:0 auto;
+    text-align:center;
+    color:rgb(250,211,254)
+}
+.center{
+    margin-left:auto;
+    margin-right:auto
+}
+.rss-title{
+    display:none
+}
+li.rss-item{
+    list-style-type:none;
+    margin-bottom:20px
+}
+li.rss-item a{
+    font-weight:bold;
+    font-size:20px;
+    text-decoration:none
+}
+.rss-date{
+    display:inline-block;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-style:italic
+}
+a.rss-item:last-child{
+    display:none
+}
+#statuscafe{
+    padding:0.5em;
+    background-color:rgb(55,8,89);
+    border:2px solid rgb(250,211,254);
+    border-radius:5px
+}
+#statuscafe-username{
+    margin-bottom:0.5em;
+    color:rgb(250,211,254)
+}
+#statuscafe-content{
+    margin:0 1em 0.5em;
+    color:rgb(250,211,254)
+}
