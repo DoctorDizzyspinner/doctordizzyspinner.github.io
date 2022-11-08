@@ -113,7 +113,6 @@ a.rss-item:last-child{
 .grid-container {
     display: grid;
     grid-template-columns: 25vw 25vw;
-    grid-template-rows: 40% 40% 20%;
     text-align: center;
     border-style: ridge;
     border-color: rgb(250,211,254);
