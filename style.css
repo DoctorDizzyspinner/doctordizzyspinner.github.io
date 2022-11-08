@@ -132,6 +132,7 @@ a.rss-item:last-child{
     grid-row: span 3;
     align-self: center;
     justify-self: auto;
+    background-color: rgb(55,8,89);
 }
 
 .item2, .item3, .item4{
@@ -139,4 +140,5 @@ a.rss-item:last-child{
     align-self: center;
     justify-self: auto;
     grid-column-start: 2;
+    background-color: rgb(55,8,89);
 }
