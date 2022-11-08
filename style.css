@@ -21,8 +21,8 @@ body{
 .flex{
     display:flex
 }
-aside,footer,header,nav{
-    font-family:alagard
+.alagard{
+    font-family:alagard;
 }
 header{
     max-width:100%
@@ -52,7 +52,6 @@ article{
     font-size:14px
 }
 h1,h2,h3,hr{
-    font-family:alagard;
     color:rgb(250,211,254)
 }
 a,hr,li,p{
@@ -119,7 +118,7 @@ a.rss-item:last-child{
     border-style: ridge;
     border-color: rgb(250,211,254);
     padding: 20px;
-    grid-row-gap: 20px;
+    grid-row-gap: 20px
 }
 
 .flex2{
@@ -133,7 +132,6 @@ a.rss-item:last-child{
     grid-row: span 3;
     align-self: center;
     justify-self: auto;
-    background-color: rgb(55,8,89)
 }
 
 .item2, .item3, .item4{
@@ -141,5 +139,4 @@ a.rss-item:last-child{
     align-self: center;
     justify-self: auto;
     grid-column-start: 2;
-    background-color: rgb(55,8,89)
 }
