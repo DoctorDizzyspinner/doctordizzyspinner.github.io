@@ -110,3 +110,34 @@ a.rss-item:last-child{
     margin:0 1em 0.5em;
     color:rgb(250,211,254)
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25vw 25vw;
+    grid-template-rows: 40% 40% 20%;
+    text-align: center;
+    border-style: ridge;
+    border-color: rgb(250,211,254);
+    padding: 20px;
+    grid-row-gap: 20px
+}
+
+.flex{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.item1 {
+    grid-row: span 3;
+    align-self: center;
+    justify-self: auto;
+}
+
+.item2, .item3, .item4{
+    border-style: groove;
+    align-self: center;
+    justify-self: auto;
+    grid-column-start: 2;
+}
